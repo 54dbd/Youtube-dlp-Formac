@@ -7,9 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		297B185F2BA18475001CF100 /* TaskItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297B185E2BA18475001CF100 /* TaskItem.swift */; };
+		297B18612BA184ED001CF100 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297B18602BA184ED001CF100 /* CircleImage.swift */; };
+		29B5355D2BA1D49C00ECB113 /* PreviewSampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B5355C2BA1D49C00ECB113 /* PreviewSampleData.swift */; };
+		29B5355F2BA1D4FD00ECB113 /* SampleTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B5355E2BA1D4FD00ECB113 /* SampleTask.swift */; };
+		29B535612BA1D52000ECB113 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B535602BA1D52000ECB113 /* Task.swift */; };
+		29BFCC4D2BA19DC8002A4481 /* TaskGallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BFCC4C2BA19DC8002A4481 /* TaskGallery.swift */; };
 		9153E5362BA179350071B6FB /* Youtube_dlp_FormacApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9153E5352BA179350071B6FB /* Youtube_dlp_FormacApp.swift */; };
 		9153E5382BA179350071B6FB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9153E5372BA179350071B6FB /* ContentView.swift */; };
-		9153E53A2BA179350071B6FB /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9153E5392BA179350071B6FB /* Item.swift */; };
 		9153E53C2BA179370071B6FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9153E53B2BA179370071B6FB /* Assets.xcassets */; };
 		9153E53F2BA179370071B6FB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9153E53E2BA179370071B6FB /* Preview Assets.xcassets */; };
 		9153E54A2BA179370071B6FB /* Youtube_dlp_FormacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9153E5492BA179370071B6FB /* Youtube_dlp_FormacTests.swift */; };
@@ -35,10 +40,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		297B185E2BA18475001CF100 /* TaskItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskItem.swift; sourceTree = "<group>"; };
+		297B18602BA184ED001CF100 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		29B5355C2BA1D49C00ECB113 /* PreviewSampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewSampleData.swift; sourceTree = "<group>"; };
+		29B5355E2BA1D4FD00ECB113 /* SampleTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleTask.swift; sourceTree = "<group>"; };
+		29B535602BA1D52000ECB113 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		29BFCC4C2BA19DC8002A4481 /* TaskGallery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskGallery.swift; sourceTree = "<group>"; };
 		9153E5322BA179350071B6FB /* Youtube-dlp-Formac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Youtube-dlp-Formac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9153E5352BA179350071B6FB /* Youtube_dlp_FormacApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Youtube_dlp_FormacApp.swift; sourceTree = "<group>"; };
 		9153E5372BA179350071B6FB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		9153E5392BA179350071B6FB /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		9153E53B2BA179370071B6FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9153E53E2BA179370071B6FB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9153E5402BA179370071B6FB /* Youtube_dlp_Formac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Youtube_dlp_Formac.entitlements; sourceTree = "<group>"; };
@@ -74,6 +84,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		297B18622BA18859001CF100 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9153E5372BA179350071B6FB /* ContentView.swift */,
+				297B185E2BA18475001CF100 /* TaskItem.swift */,
+				297B18602BA184ED001CF100 /* CircleImage.swift */,
+				29BFCC4C2BA19DC8002A4481 /* TaskGallery.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		29B5355B2BA1D48500ECB113 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				29B5355C2BA1D49C00ECB113 /* PreviewSampleData.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		29BFCC482BA1900D002A4481 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				29B5355E2BA1D4FD00ECB113 /* SampleTask.swift */,
+				29B535602BA1D52000ECB113 /* Task.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		9153E5292BA179350071B6FB = {
 			isa = PBXGroup;
 			children = (
@@ -97,9 +135,10 @@
 		9153E5342BA179350071B6FB /* Youtube-dlp-Formac */ = {
 			isa = PBXGroup;
 			children = (
+				29B5355B2BA1D48500ECB113 /* Support */,
+				29BFCC482BA1900D002A4481 /* Model */,
+				297B18622BA18859001CF100 /* Views */,
 				9153E5352BA179350071B6FB /* Youtube_dlp_FormacApp.swift */,
-				9153E5372BA179350071B6FB /* ContentView.swift */,
-				9153E5392BA179350071B6FB /* Item.swift */,
 				9153E53B2BA179370071B6FB /* Assets.xcassets */,
 				9153E5402BA179370071B6FB /* Youtube_dlp_Formac.entitlements */,
 				9153E53D2BA179370071B6FB /* Preview Content */,
@@ -262,9 +301,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29B535612BA1D52000ECB113 /* Task.swift in Sources */,
+				29B5355F2BA1D4FD00ECB113 /* SampleTask.swift in Sources */,
 				9153E5382BA179350071B6FB /* ContentView.swift in Sources */,
-				9153E53A2BA179350071B6FB /* Item.swift in Sources */,
+				297B185F2BA18475001CF100 /* TaskItem.swift in Sources */,
 				9153E5362BA179350071B6FB /* Youtube_dlp_FormacApp.swift in Sources */,
+				29BFCC4D2BA19DC8002A4481 /* TaskGallery.swift in Sources */,
+				29B5355D2BA1D49C00ECB113 /* PreviewSampleData.swift in Sources */,
+				297B18612BA184ED001CF100 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,7 +473,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Youtube-dlp-Formac/Preview Content\"";
-				DEVELOPMENT_TEAM = 73QXWXD42R;
+				DEVELOPMENT_TEAM = S2VJDHJ8HG;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -457,7 +501,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Youtube-dlp-Formac/Preview Content\"";
-				DEVELOPMENT_TEAM = 73QXWXD42R;
+				DEVELOPMENT_TEAM = S2VJDHJ8HG;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -482,7 +526,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 73QXWXD42R;
+				DEVELOPMENT_TEAM = S2VJDHJ8HG;
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
@@ -501,7 +545,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 73QXWXD42R;
+				DEVELOPMENT_TEAM = S2VJDHJ8HG;
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
@@ -519,7 +563,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 73QXWXD42R;
+				DEVELOPMENT_TEAM = S2VJDHJ8HG;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Ross.Youtube-dlp-FormacUITests";
@@ -536,7 +580,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 73QXWXD42R;
+				DEVELOPMENT_TEAM = S2VJDHJ8HG;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Ross.Youtube-dlp-FormacUITests";

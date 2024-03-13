@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "04FA8B67-B4CC-4627-BD1F-F7E209FC951D"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "47447F7A-19C3-432D-BF70-AD543A1255E5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Youtube-dlp-Formac/Model/Task.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "Task"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "47447F7A-19C3-432D-BF70-AD543A1255E5 - 5d0c63c146185192"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Youtube_dlp_Formac.Task.deinit"
+                  moduleName = "Youtube-dlp-Formac"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shawn/Documents/Code/Xcode/Youtube-dlp-Formac/Youtube-dlp-Formac/Model/Task.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0">
+               </Location>
+               <Location
+                  uuid = "47447F7A-19C3-432D-BF70-AD543A1255E5 - b79e4d2d263950bf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Youtube_dlp_Formac.Task.__deallocating_deinit"
+                  moduleName = "Youtube-dlp-Formac"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shawn/Documents/Code/Xcode/Youtube-dlp-Formac/Youtube-dlp-Formac/Model/Task.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
