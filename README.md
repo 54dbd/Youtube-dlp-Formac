@@ -1,4 +1,4 @@
-<!-- Improved compatibility of back to top link: See: https://github.com/54dbd/Youtube-dl-formac/pull/73 -->
+<!-- Improved compatibility of back to top link: See: https://github.com/54dbd/Youtube-dlp-Formac/pull/73 -->
 <a name="readme-top"></a>
 <!--
 *** Thanks for checking out the Best-README-Template. If you have a suggestion
@@ -31,12 +31,12 @@
 <br />
 <div align="center">
   <img src="https://i.ibb.co/gWFD5WN/tray-arrow-down-fill-1-2x.png" alt="Vector" height="200"/>
-  <h3 align="center">Youtube-dl-formac</h3>
+  <h3 align="center">Youtube-dlp-Formac</h3>
 
   <p align="center">
     This project download video from all kinds of websites.
     <br />
-    <a href="https://github.com/54dbd/Youtube-dl-formac/issues">Report Bug</a>
+    <a href="https://github.com/54dbd/Youtube-dlp-Formac/issues">Report Bug</a>
   </p>
 </div>
 
@@ -70,7 +70,7 @@ No need to be afraid of Downie randomly deleting your system file anymore. This 
 
 
 
-See the [open issues](https://github.com/54dbd/Youtube-dl-formac/issues) for a full list of proposed features (and known
+See the [open issues](https://github.com/54dbd/Youtube-dlp-Formac/issues) for a full list of proposed features (and known
 issues).
 
 
@@ -88,25 +88,25 @@ issues).
 Distributed under the GPL-3.0 License. See `LICENSE.txt` for more information.
 
 
-[contributors-shield]: https://img.shields.io/github/contributors/54dbd/Youtube-dl-formac.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/54dbd/Youtube-dlp-Formac.svg?style=for-the-badge
 
-[contributors-url]: https://github.com/54dbd/Youtube-dl-formac/graphs/contributors
+[contributors-url]: https://github.com/54dbd/Youtube-dlp-Formac/graphs/contributors
 
-[forks-shield]: https://img.shields.io/github/forks/54dbd/Youtube-dl-formac.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/54dbd/Youtube-dlp-Formac.svg?style=for-the-badge
 
-[forks-url]: https://github.com/54dbd/Youtube-dl-formac/network/members
+[forks-url]: https://github.com/54dbd/Youtube-dlp-Formac/network/members
 
-[stars-shield]: https://img.shields.io/github/stars/54dbd/Youtube-dl-formac.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/54dbd/Youtube-dlp-Formac.svg?style=for-the-badge
 
-[stars-url]: https://github.com/54dbd/Youtube-dl-formac/stargazers
+[stars-url]: https://github.com/54dbd/Youtube-dlp-Formac/stargazers
 
-[issues-shield]: https://img.shields.io/github/issues/54dbd/Youtube-dl-formac.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/54dbd/Youtube-dlp-Formac.svg?style=for-the-badge
 
-[issues-url]: https://github.com/54dbd/Youtube-dl-formac/issues
+[issues-url]: https://github.com/54dbd/Youtube-dlp-Formac/issues
 
-[license-shield]: https://img.shields.io/github/license/54dbd/Youtube-dl-formac.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/54dbd/Youtube-dlp-Formac.svg?style=for-the-badge
 
-[license-url]: https://github.com/54dbd/Youtube-dl-formac/blob/master/LICENSE.txt
+[license-url]: https://github.com/54dbd/Youtube-dlp-Formac/blob/master/LICENSE.txt
 
 [patreon-shield]: https://img.shields.io/badge/-patreon-black.svg?style=for-the-badge&logo=patreon&colorB=555
 
