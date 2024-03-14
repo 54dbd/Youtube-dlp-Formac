@@ -27,7 +27,7 @@ struct Youtube_dlp_FormacApp: App {
         WindowGroup {
             ContentView()
         }
-		.modelContainer(sharedModelContainer)
+		.modelContainer(previewContainer)
 //		.windowStyle(HiddenTitleBarWindowStyle()) // 隐藏标题栏
 //		.windowToolbarStyle(UnifiedWindowToolbarStyle())
 
