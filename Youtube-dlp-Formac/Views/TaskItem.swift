@@ -13,28 +13,30 @@ struct TaskItem: View {
     var body: some View {
         let title: String = task.url
         let image: Image = Image(task.picture)
-        HStack {
-            CircleImage(image: image)
-                .frame(width: 75, height: 75)
-                .offset(x: 10)
-            
-            Spacer()
-            
-            VStack(alignment: .leading) {
-                Text(title).font(.headline)
-                Text("Website").font(.caption)
+        VStack {
+            HStack {
+                CircleImage(image: image)
+                    .frame(width: 70, height: 70)
+                    .offset(x: 10)
                 
+                Spacer()
+                
+                VStack(alignment: .leading) {
+                    Text(title).font(.headline)
+                    Text("Website").font(.caption)
+                    
+                }
+                
+                VStack {
+                    //                Button()
+                }
             }
-            
-            VStack {
-//                Button()
-            }
-            
-            Divider()
+            Rectangle()
+                .fill(Color.gray)
                 .frame(height: 1)
-                .foregroundColor(.gray)
         }
-        .frame(minWidth: 200, maxWidth: .infinity, minHeight: 100, maxHeight: .infinity)
+        //        .frame(maxWidth: .infinity)
+        //        .frame(height: 50)
     }
 }
 

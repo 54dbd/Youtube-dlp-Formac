@@ -11,10 +11,14 @@ struct TaskGallery: View {
     var tasks: [Task]
     var body: some View {
         ScrollView {
-            ForEach(tasks) { task in
-                TaskItem(task: task)
+            VStack {
+                ForEach(tasks) { task in
+                    TaskItem(task: task)
+                        .frame(height: 80)
+                }
             }
         }
+        .padding(.top)
     }
 }
 
